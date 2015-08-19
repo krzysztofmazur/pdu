@@ -118,7 +118,7 @@ class Pdu  {
     public static function getInstance()
     {
         if(null === self::$instance) {
-            self::$instance = new PduUtility();
+            self::$instance = new Pdu();
         }
         return self::$instance;
     }
